@@ -1,0 +1,25 @@
+.idea
+.DS_Store
+/composer.lock
+/vendor/
+/current_SHA
+/last_build.json
+/build/cookie.txt
+/cookie.txt
+
+# Don't push reports to repo #
+/coverage/
+/www/coverage/
+
+# App Cache #
+/cache/*
+!/cache/.placeholder
+
+# Don't push the local config #
+/etc/config.json
+
+# Unit Testing #
+/app-coverage
+/phpunit.xml
+/testconfigs
+.phpunit.result.cache
